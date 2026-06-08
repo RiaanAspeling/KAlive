@@ -1,0 +1,25 @@
+# Build output
+bin/
+obj/
+publish/
+*.dll
+*.pdb
+*.exe
+
+# IDE / editor
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userprefs
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code session data
+.claude/
+
+# Local runtime settings (next-to-exe portable file should not be checked in)
+settings.json

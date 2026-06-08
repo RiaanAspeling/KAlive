@@ -1,0 +1,9 @@
+{
+  "Enabled": true,
+  "InitialIdleThresholdSeconds": 240,
+  "InjectionIntervalMinSeconds": 60,
+  "InjectionIntervalMaxSeconds": 120,
+  "ScheduleEnabled": false,
+  "WakeAt": "06:00",
+  "SleepAt": "16:00"
+}
