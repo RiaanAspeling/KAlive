@@ -1,12 +1,12 @@
 # KAlive
 
-A tiny Windows tray utility that keeps you "available" in apps like Microsoft Teams when your laptop has been idle, by injecting a harmless function keystroke after a configurable period of real inactivity.
+A tiny Windows tray utility that keeps you "active" in apps like SQL Server Management Studio when you're running long queries and your laptop has been idle, by injecting a harmless function keystroke after a configurable period of real inactivity.
 
 It only acts when *you* are actually idle — synthetic input is distinguished from real input so the icon (and behavior) reflect the truth.
 
 ## Why
 
-Some corporate policies force the screen to sleep after a short idle period, which in turn flips your Teams status to **Away** even if you're at your desk thinking. KAlive sends a random function key (F15–F24, all valid but virtually never mapped) when you've been idle past a threshold, then keeps it up on a randomized cadence until you return.
+Some corporate policies force the screen to sleep after a short idle period, which in turn could disconnect your VPN connection. KAlive sends a random function key (F15–F24, all valid but virtually never mapped) when you've been idle past a threshold, then keeps it up on a randomized cadence until you return.
 
 ## Features
 
@@ -64,7 +64,7 @@ A malformed JSON file falls through to defaults silently, so you can't brick the
 ## Caveats
 
 - May violate your organisation's acceptable-use policy. Use at your own discretion.
-- Synthetic input still counts as "input" everywhere — KAlive can't selectively defeat Teams' away detection while letting other inactivity timers run.
+- Synthetic input still counts as "input" everywhere — KAlive can't selectively defeat one inactivity timer while letting others run.
 
 ## How it works
 
